@@ -13,7 +13,9 @@ import com.example.movieapp_with_kotlin.data.entity.Filmler
 import com.example.movieapp_with_kotlin.databinding.FragmentAnasayfaBinding
 import com.example.movieapp_with_kotlin.ui.adapter.FilmlerAdapter
 import com.example.movieapp_with_kotlin.ui.viewModel.AnasayfaViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class AnasayfaFragment : Fragment() {
     private lateinit var binding : FragmentAnasayfaBinding
     private lateinit var viewModel: AnasayfaViewModel
